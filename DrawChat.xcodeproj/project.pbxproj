@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9F9A0F1B0B8A7700ED1E80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A0E1B0B8A7700ED1E80 /* main.m */; };
+		1B9F9A121B0B8A7700ED1E80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A111B0B8A7700ED1E80 /* AppDelegate.m */; };
+		1B9F9A181B0B8A7700ED1E80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9F9A161B0B8A7700ED1E80 /* Main.storyboard */; };
+		1B9F9A1A1B0B8A7700ED1E80 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9F9A191B0B8A7700ED1E80 /* Images.xcassets */; };
+		1B9F9A1D1B0B8A7700ED1E80 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B9F9A1B1B0B8A7700ED1E80 /* LaunchScreen.xib */; };
+		1B9F9A291B0B8A7700ED1E80 /* DrawChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A281B0B8A7700ED1E80 /* DrawChatTests.m */; };
+		1B9F9A341B0B8A8A00ED1E80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A331B0B8A8A00ED1E80 /* ViewController.m */; };
+		1B9F9A371B0B8A9A00ED1E80 /* DCColorPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A361B0B8A9A00ED1E80 /* DCColorPicker.m */; };
+		1B9F9A3A1B0B8ABD00ED1E80 /* checkerboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 1B9F9A391B0B8ABD00ED1E80 /* checkerboard.png */; };
+		1B9F9A411B0B8AF100ED1E80 /* HuePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A401B0B8AF100ED1E80 /* HuePicker.m */; };
+		1B9F9A471B0B8B3A00ED1E80 /* TransparencyPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A461B0B8B3A00ED1E80 /* TransparencyPicker.m */; };
+		1B9F9A4A1B0B8B4900ED1E80 /* MainPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A491B0B8B4900ED1E80 /* MainPicker.m */; };
+		1B9F9A4E1B0C7FD500ED1E80 /* DCDrawPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A4D1B0C7FD500ED1E80 /* DCDrawPlot.m */; };
+		1B9F9A511B0C7FE900ED1E80 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A501B0C7FE900ED1E80 /* Line.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B9F9A231B0B8A7700ED1E80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B9F9A011B0B8A7700ED1E80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B9F9A081B0B8A7700ED1E80;
+			remoteInfo = DrawChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B9F9A091B0B8A7700ED1E80 /* DrawChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9F9A0D1B0B8A7700ED1E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9F9A0E1B0B8A7700ED1E80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1B9F9A101B0B8A7700ED1E80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1B9F9A111B0B8A7700ED1E80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1B9F9A171B0B8A7700ED1E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B9F9A191B0B8A7700ED1E80 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B9F9A1C1B0B8A7700ED1E80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1B9F9A221B0B8A7700ED1E80 /* DrawChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9F9A271B0B8A7700ED1E80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9F9A281B0B8A7700ED1E80 /* DrawChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawChatTests.m; sourceTree = "<group>"; };
+		1B9F9A321B0B8A8A00ED1E80 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B9F9A331B0B8A8A00ED1E80 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B9F9A351B0B8A9A00ED1E80 /* DCColorPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCColorPicker.h; sourceTree = "<group>"; };
+		1B9F9A361B0B8A9A00ED1E80 /* DCColorPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCColorPicker.m; sourceTree = "<group>"; };
+		1B9F9A391B0B8ABD00ED1E80 /* checkerboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkerboard.png; sourceTree = "<group>"; };
+		1B9F9A3F1B0B8AF100ED1E80 /* HuePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuePicker.h; sourceTree = "<group>"; };
+		1B9F9A401B0B8AF100ED1E80 /* HuePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuePicker.m; sourceTree = "<group>"; };
+		1B9F9A451B0B8B3A00ED1E80 /* TransparencyPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransparencyPicker.h; sourceTree = "<group>"; };
+		1B9F9A461B0B8B3A00ED1E80 /* TransparencyPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransparencyPicker.m; sourceTree = "<group>"; };
+		1B9F9A481B0B8B4900ED1E80 /* MainPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPicker.h; sourceTree = "<group>"; };
+		1B9F9A491B0B8B4900ED1E80 /* MainPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPicker.m; sourceTree = "<group>"; };
+		1B9F9A4C1B0C7FD500ED1E80 /* DCDrawPlot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCDrawPlot.h; sourceTree = "<group>"; };
+		1B9F9A4D1B0C7FD500ED1E80 /* DCDrawPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDrawPlot.m; sourceTree = "<group>"; };
+		1B9F9A4F1B0C7FE900ED1E80 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		1B9F9A501B0C7FE900ED1E80 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B9F9A061B0B8A7700ED1E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9F9A1F1B0B8A7700ED1E80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B9F9A001B0B8A7700ED1E80 = {
+			isa = PBXGroup;
+			children = (
+				1B9F9A4B1B0C7FBA00ED1E80 /* DrawingPlot */,
+				1B9F9A3B1B0B8AC000ED1E80 /* Assets */,
+				1B9F9A381B0B8AA300ED1E80 /* DCColorPicker */,
+				1B9F9A321B0B8A8A00ED1E80 /* ViewController.h */,
+				1B9F9A331B0B8A8A00ED1E80 /* ViewController.m */,
+				1B9F9A0B1B0B8A7700ED1E80 /* DrawChat */,
+				1B9F9A251B0B8A7700ED1E80 /* DrawChatTests */,
+				1B9F9A0A1B0B8A7700ED1E80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B9F9A0A1B0B8A7700ED1E80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F9A091B0B8A7700ED1E80 /* DrawChat.app */,
+				1B9F9A221B0B8A7700ED1E80 /* DrawChatTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B9F9A0B1B0B8A7700ED1E80 /* DrawChat */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F9A101B0B8A7700ED1E80 /* AppDelegate.h */,
+				1B9F9A111B0B8A7700ED1E80 /* AppDelegate.m */,
+				1B9F9A161B0B8A7700ED1E80 /* Main.storyboard */,
+				1B9F9A191B0B8A7700ED1E80 /* Images.xcassets */,
+				1B9F9A1B1B0B8A7700ED1E80 /* LaunchScreen.xib */,
+				1B9F9A0C1B0B8A7700ED1E80 /* Supporting Files */,
+			);
+			path = DrawChat;
+			sourceTree = "<group>";
+		};
+		1B9F9A0C1B0B8A7700ED1E80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F9A0D1B0B8A7700ED1E80 /* Info.plist */,
+				1B9F9A0E1B0B8A7700ED1E80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B9F9A251B0B8A7700ED1E80 /* DrawChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F9A281B0B8A7700ED1E80 /* DrawChatTests.m */,
+				1B9F9A261B0B8A7700ED1E80 /* Supporting Files */,
+			);
+			path = DrawChatTests;
+			sourceTree = "<group>";
+		};
+		1B9F9A261B0B8A7700ED1E80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F9A271B0B8A7700ED1E80 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1B9F9A381B0B8AA300ED1E80 /* DCColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F9A351B0B8A9A00ED1E80 /* DCColorPicker.h */,
+				1B9F9A361B0B8A9A00ED1E80 /* DCColorPicker.m */,
+				1B9F9A3F1B0B8AF100ED1E80 /* HuePicker.h */,
+				1B9F9A401B0B8AF100ED1E80 /* HuePicker.m */,
+				1B9F9A451B0B8B3A00ED1E80 /* TransparencyPicker.h */,
+				1B9F9A461B0B8B3A00ED1E80 /* TransparencyPicker.m */,
+				1B9F9A481B0B8B4900ED1E80 /* MainPicker.h */,
+				1B9F9A491B0B8B4900ED1E80 /* MainPicker.m */,
+			);
+			name = DCColorPicker;
+			sourceTree = "<group>";
+		};
+		1B9F9A3B1B0B8AC000ED1E80 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F9A391B0B8ABD00ED1E80 /* checkerboard.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		1B9F9A4B1B0C7FBA00ED1E80 /* DrawingPlot */ = {
+			isa = PBXGroup;
+			children = (
+				1B9F9A4C1B0C7FD500ED1E80 /* DCDrawPlot.h */,
+				1B9F9A4D1B0C7FD500ED1E80 /* DCDrawPlot.m */,
+				1B9F9A4F1B0C7FE900ED1E80 /* Line.h */,
+				1B9F9A501B0C7FE900ED1E80 /* Line.m */,
+			);
+			name = DrawingPlot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B9F9A081B0B8A7700ED1E80 /* DrawChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9F9A2C1B0B8A7700ED1E80 /* Build configuration list for PBXNativeTarget "DrawChat" */;
+			buildPhases = (
+				1B9F9A051B0B8A7700ED1E80 /* Sources */,
+				1B9F9A061B0B8A7700ED1E80 /* Frameworks */,
+				1B9F9A071B0B8A7700ED1E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawChat;
+			productName = DrawChat;
+			productReference = 1B9F9A091B0B8A7700ED1E80 /* DrawChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B9F9A211B0B8A7700ED1E80 /* DrawChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9F9A2F1B0B8A7700ED1E80 /* Build configuration list for PBXNativeTarget "DrawChatTests" */;
+			buildPhases = (
+				1B9F9A1E1B0B8A7700ED1E80 /* Sources */,
+				1B9F9A1F1B0B8A7700ED1E80 /* Frameworks */,
+				1B9F9A201B0B8A7700ED1E80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B9F9A241B0B8A7700ED1E80 /* PBXTargetDependency */,
+			);
+			name = DrawChatTests;
+			productName = DrawChatTests;
+			productReference = 1B9F9A221B0B8A7700ED1E80 /* DrawChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B9F9A011B0B8A7700ED1E80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Yoanna Mareva";
+				TargetAttributes = {
+					1B9F9A081B0B8A7700ED1E80 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					1B9F9A211B0B8A7700ED1E80 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 1B9F9A081B0B8A7700ED1E80;
+					};
+				};
+			};
+			buildConfigurationList = 1B9F9A041B0B8A7700ED1E80 /* Build configuration list for PBXProject "DrawChat" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B9F9A001B0B8A7700ED1E80;
+			productRefGroup = 1B9F9A0A1B0B8A7700ED1E80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B9F9A081B0B8A7700ED1E80 /* DrawChat */,
+				1B9F9A211B0B8A7700ED1E80 /* DrawChatTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B9F9A071B0B8A7700ED1E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9F9A3A1B0B8ABD00ED1E80 /* checkerboard.png in Resources */,
+				1B9F9A181B0B8A7700ED1E80 /* Main.storyboard in Resources */,
+				1B9F9A1D1B0B8A7700ED1E80 /* LaunchScreen.xib in Resources */,
+				1B9F9A1A1B0B8A7700ED1E80 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9F9A201B0B8A7700ED1E80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B9F9A051B0B8A7700ED1E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9F9A341B0B8A8A00ED1E80 /* ViewController.m in Sources */,
+				1B9F9A511B0C7FE900ED1E80 /* Line.m in Sources */,
+				1B9F9A121B0B8A7700ED1E80 /* AppDelegate.m in Sources */,
+				1B9F9A4A1B0B8B4900ED1E80 /* MainPicker.m in Sources */,
+				1B9F9A4E1B0C7FD500ED1E80 /* DCDrawPlot.m in Sources */,
+				1B9F9A371B0B8A9A00ED1E80 /* DCColorPicker.m in Sources */,
+				1B9F9A411B0B8AF100ED1E80 /* HuePicker.m in Sources */,
+				1B9F9A0F1B0B8A7700ED1E80 /* main.m in Sources */,
+				1B9F9A471B0B8B3A00ED1E80 /* TransparencyPicker.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9F9A1E1B0B8A7700ED1E80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9F9A291B0B8A7700ED1E80 /* DrawChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B9F9A241B0B8A7700ED1E80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B9F9A081B0B8A7700ED1E80 /* DrawChat */;
+			targetProxy = 1B9F9A231B0B8A7700ED1E80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B9F9A161B0B8A7700ED1E80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9F9A171B0B8A7700ED1E80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B9F9A1B1B0B8A7700ED1E80 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9F9A1C1B0B8A7700ED1E80 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B9F9A2A1B0B8A7700ED1E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1B9F9A2B1B0B8A7700ED1E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B9F9A2D1B0B8A7700ED1E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1B9F9A2E1B0B8A7700ED1E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DrawChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1B9F9A301B0B8A7700ED1E80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawChat.app/DrawChat";
+			};
+			name = Debug;
+		};
+		1B9F9A311B0B8A7700ED1E80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DrawChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DrawChat.app/DrawChat";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B9F9A041B0B8A7700ED1E80 /* Build configuration list for PBXProject "DrawChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9F9A2A1B0B8A7700ED1E80 /* Debug */,
+				1B9F9A2B1B0B8A7700ED1E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9F9A2C1B0B8A7700ED1E80 /* Build configuration list for PBXNativeTarget "DrawChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9F9A2D1B0B8A7700ED1E80 /* Debug */,
+				1B9F9A2E1B0B8A7700ED1E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1B9F9A2F1B0B8A7700ED1E80 /* Build configuration list for PBXNativeTarget "DrawChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9F9A301B0B8A7700ED1E80 /* Debug */,
+				1B9F9A311B0B8A7700ED1E80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B9F9A011B0B8A7700ED1E80 /* Project object */;
+}
