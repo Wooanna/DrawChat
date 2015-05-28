@@ -21,6 +21,13 @@
 		1B9F9A4A1B0B8B4900ED1E80 /* MainPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A491B0B8B4900ED1E80 /* MainPicker.m */; };
 		1B9F9A4E1B0C7FD500ED1E80 /* DCDrawPlot.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A4D1B0C7FD500ED1E80 /* DCDrawPlot.m */; };
 		1B9F9A511B0C7FE900ED1E80 /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9F9A501B0C7FE900ED1E80 /* Line.m */; };
+		1BBF89F11B16043A00FBCA7D /* LogInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBF89F01B16043A00FBCA7D /* LogInViewController.m */; };
+		1BBF89F51B16073300FBCA7D /* back@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1BBF89F41B16073300FBCA7D /* back@2x.jpg */; };
+		1BBF8B261B16100900FBCA7D /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBF8B251B16100900FBCA7D /* FBSDKShareKit.framework */; };
+		1BBF8B291B16101C00FBCA7D /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBF8B271B16101C00FBCA7D /* FBSDKCoreKit.framework */; };
+		1BBF8B2A1B16101C00FBCA7D /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBF8B281B16101C00FBCA7D /* FBSDKLoginKit.framework */; };
+		1BBF8B2C1B16102300FBCA7D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BBF8B2B1B16102300FBCA7D /* QuartzCore.framework */; };
+		1BBF8B2F1B1618A200FBCA7D /* SCSettings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBF8B2E1B1618A200FBCA7D /* SCSettings.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +67,15 @@
 		1B9F9A4D1B0C7FD500ED1E80 /* DCDrawPlot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCDrawPlot.m; sourceTree = "<group>"; };
 		1B9F9A4F1B0C7FE900ED1E80 /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
 		1B9F9A501B0C7FE900ED1E80 /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		1BBF89EF1B16043A00FBCA7D /* LogInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogInViewController.h; sourceTree = "<group>"; };
+		1BBF89F01B16043A00FBCA7D /* LogInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogInViewController.m; sourceTree = "<group>"; };
+		1BBF89F41B16073300FBCA7D /* back@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "back@2x.jpg"; sourceTree = "<group>"; };
+		1BBF8B251B16100900FBCA7D /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		1BBF8B271B16101C00FBCA7D /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		1BBF8B281B16101C00FBCA7D /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		1BBF8B2B1B16102300FBCA7D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1BBF8B2D1B1618A200FBCA7D /* SCSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCSettings.h; sourceTree = "<group>"; };
+		1BBF8B2E1B1618A200FBCA7D /* SCSettings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCSettings.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +83,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BBF8B2C1B16102300FBCA7D /* QuartzCore.framework in Frameworks */,
+				1BBF8B291B16101C00FBCA7D /* FBSDKCoreKit.framework in Frameworks */,
+				1BBF8B2A1B16101C00FBCA7D /* FBSDKLoginKit.framework in Frameworks */,
+				1BBF8B261B16100900FBCA7D /* FBSDKShareKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +103,14 @@
 		1B9F9A001B0B8A7700ED1E80 = {
 			isa = PBXGroup;
 			children = (
+				1BBF8B2B1B16102300FBCA7D /* QuartzCore.framework */,
+				1BBF8B271B16101C00FBCA7D /* FBSDKCoreKit.framework */,
+				1BBF8B281B16101C00FBCA7D /* FBSDKLoginKit.framework */,
+				1BBF8B251B16100900FBCA7D /* FBSDKShareKit.framework */,
+				1BBF89EF1B16043A00FBCA7D /* LogInViewController.h */,
+				1BBF89F01B16043A00FBCA7D /* LogInViewController.m */,
+				1BBF8B2D1B1618A200FBCA7D /* SCSettings.h */,
+				1BBF8B2E1B1618A200FBCA7D /* SCSettings.m */,
 				1B9F9A4B1B0C7FBA00ED1E80 /* DrawingPlot */,
 				1B9F9A3B1B0B8AC000ED1E80 /* Assets */,
 				1B9F9A381B0B8AA300ED1E80 /* DCColorPicker */,
@@ -160,6 +188,7 @@
 		1B9F9A3B1B0B8AC000ED1E80 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				1BBF89F41B16073300FBCA7D /* back@2x.jpg */,
 				1B9F9A391B0B8ABD00ED1E80 /* checkerboard.png */,
 			);
 			name = Assets;
@@ -258,6 +287,7 @@
 			files = (
 				1B9F9A3A1B0B8ABD00ED1E80 /* checkerboard.png in Resources */,
 				1B9F9A181B0B8A7700ED1E80 /* Main.storyboard in Resources */,
+				1BBF89F51B16073300FBCA7D /* back@2x.jpg in Resources */,
 				1B9F9A1D1B0B8A7700ED1E80 /* LaunchScreen.xib in Resources */,
 				1B9F9A1A1B0B8A7700ED1E80 /* Images.xcassets in Resources */,
 			);
@@ -279,10 +309,12 @@
 			files = (
 				1B9F9A341B0B8A8A00ED1E80 /* ViewController.m in Sources */,
 				1B9F9A511B0C7FE900ED1E80 /* Line.m in Sources */,
+				1BBF89F11B16043A00FBCA7D /* LogInViewController.m in Sources */,
 				1B9F9A121B0B8A7700ED1E80 /* AppDelegate.m in Sources */,
 				1B9F9A4A1B0B8B4900ED1E80 /* MainPicker.m in Sources */,
 				1B9F9A4E1B0C7FD500ED1E80 /* DCDrawPlot.m in Sources */,
 				1B9F9A371B0B8A9A00ED1E80 /* DCColorPicker.m in Sources */,
+				1BBF8B2F1B1618A200FBCA7D /* SCSettings.m in Sources */,
 				1B9F9A411B0B8AF100ED1E80 /* HuePicker.m in Sources */,
 				1B9F9A0F1B0B8A7700ED1E80 /* main.m in Sources */,
 				1B9F9A471B0B8B3A00ED1E80 /* TransparencyPicker.m in Sources */,
@@ -411,7 +443,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mareva/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
 				INFOPLIST_FILE = DrawChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -421,7 +459,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/mareva/Documents/FacebookSDK,
+					"$(PROJECT_DIR)/FacebookSDK",
+				);
 				INFOPLIST_FILE = DrawChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -480,6 +524,7 @@
 				1B9F9A2E1B0B8A7700ED1E80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B9F9A2F1B0B8A7700ED1E80 /* Build configuration list for PBXNativeTarget "DrawChatTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +533,7 @@
 				1B9F9A311B0B8A7700ED1E80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -27,7 +27,15 @@
     [btn addTarget:self action:@selector(showColorPicker) forControlEvents:UIControlEventTouchDown];
     [self.view addSubview:btn];
     
-    _drawPlot = [[DCDrawPlot alloc] initWithFrame:CGRectMake(40, 40, 600, 600)];
+    
+    UIButton* back = [UIButton buttonWithType:UIButtonTypeCustom];
+    [back setTitle:@"Back" forState:UIControlStateNormal];
+    [back setBackgroundColor:[UIColor redColor]];
+    back.frame = CGRectMake(0, self.view.frame.size.height - 30, 60, 30);
+    [back addTarget:self action:@selector(backToPrev) forControlEvents:UIControlEventTouchDown];
+    [self.view addSubview:back];
+
+    _drawPlot = [[DCDrawPlot alloc] initWithFrame:CGRectMake(0, 40, self.view.frame.size.width, 500)];
     [self.view addSubview:_drawPlot];
     
 }
@@ -41,5 +49,10 @@
 {
     ((DCDrawPlot*)_drawPlot).colorPicker.hidden = NO;
     [self.view bringSubviewToFront:((DCDrawPlot*)_drawPlot).colorPicker];
+}
+
+-(void)backToPrev
+{
+ [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end
